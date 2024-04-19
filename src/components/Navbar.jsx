@@ -9,8 +9,8 @@ const Navbar = () => {
 
   return (
     <nav className='x-full flex justify-between items-center navbar'>
-      <ul className='flex items-center'> {/* Added 'flex items-center' */}
-        <li className='text-[25px] font-bold text-white'>LOGO</li> {/* Changed 'ul' to 'li' */}
+      <ul className='flex items-center'> 
+        <li className='text-[25px] font-bold text-white'>LOGO</li> 
       </ul>
       
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
