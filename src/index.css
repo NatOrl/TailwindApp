@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Poppins;
+} 
+
+.sidebar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.gradient-orangeBtn {
+  background: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 100%);
+}
+
+.lightorange {
+  background: rgba(220, 112, 0, 0.09);
+}
+
+.slick-slide > div {
+  margin: 0 20px;
+}
+
+/* Override default styles of react-slick arrows */
+.slick-prev,
+.slick-next,
+.slick-prev:focus,
+.slick-next:focus {
+  position: absolute;
+  top: 50%; 
+  transform: translateY(-50%);
+  width: 40px; /* Adjust width as needed */
+  height: 40px; /* Adjust height as needed */
+  background-color: rgba(219, 113, 0, 0.3); /* Set background color */
+  z-index: 1; /* Ensure arrows are above slider content */
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add drop shadow */
+  border-radius: 50%;
+}
+
+/* Style for the "previous" arrow */
+.slick-prev {
+  left: 20px; /* Adjust left position */
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* Style for the "next" arrow */
+.slick-next {
+  right: 20px; /* Adjust right position */
+
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* Change arrow color on hover */
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: hsl(31, 100%, 43%);; /* Change background color on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add drop shadow on hover */
+}
+
+.carousel-item {
+  width: 300px; /* Adjust as needed */
+  height: 400px; /* Adjust as needed */
+
+}
+
+.dropshadow {
+  -webkit-box-shadow: -3px 8px 56px -39px rgba(66, 68, 90, 0.38);
+  -moz-box-shadow: -3px 8px 56px -39px rgba(66, 68, 90, 0.38);
+  box-shadow: -3px 8px 56px -39px rgba(66, 68, 90, 0.38);
+}
+
+.slick-list {
+  margin-bottom: 6rem;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  
+}
