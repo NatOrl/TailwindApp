@@ -14,7 +14,7 @@ const Navbar = () => {
         <li className='text-[25px] font-bold text-white'>LOGO</li> 
       </ul>
       
-      <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
+      <ul className='list-none md:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
@@ -27,7 +27,7 @@ const Navbar = () => {
       </ul>
 
       {/* Sidebar */}
-      <div className='sm:hidden flex justify-end items-center z-[100]'>
+      <div className='md:hidden flex justify-end items-center z-[100]'>
         <img
           src={toggle ? close : menu}
           alt='menu'

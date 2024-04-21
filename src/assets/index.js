@@ -23,31 +23,57 @@ import project4 from './project4.png'
 import project5 from './project5.png'
 import project6 from './project6.png'
 import peoplewithdog from './peoplewithdog.png'
+import avatar from './avatar.png'
+import twodudes from './twodudes.png'
+import office2 from './office2.png'
+import face1 from './face1.png'
+import face2 from './face2.png'
+import face3 from './face3.png'
+import clientlogo1 from './clientlogo1.png'
+import clientlogo2 from './clientlogo2.png'
+import clientlogo3 from './clientlogo3.png'
+import clientlogo4 from './clientlogo4.png'
+import clientlogo5 from './clientlogo5.png'
+import whitearrow from './whitearrow.png'
+
+
 
 export {
-  menu,
+  ardesign,
+  arrow,
+  arsolutions,
+  avatar,
+  blackArrowNext,
+  blackArrowPrev,
+  clientlogo1,
+  clientlogo2,
+  clientlogo3,
+  clientlogo4,
+  clientlogo5,
   close,
-  people,
+  dmodeling,
+  face1,
+  face2,
+  face3,
   line1,
   line2,
   line3,
   line4,
+  menu,
   office,
+  office2,
   orangeDots,
-  arrow,
-  dmodeling,
-  ardesign,
-  arsolutions,
-  ps4,
-  smartphone,
   pc,
-  blackArrowNext,
-  blackArrowPrev,
+  people,
+  peoplewithdog,
   project1,
   project2,
   project3,
   project4,
   project5,
   project6,
-  peoplewithdog
+  ps4,
+  smartphone,
+  twodudes,
+  whitearrow
 }
