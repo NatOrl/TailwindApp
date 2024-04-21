@@ -1,6 +1,6 @@
 import React from 'react'
-import { office, orangeDots } from '../assets'
-import styles from '../styles'
+import { office, orangeDots } from '../../assets'
+import styles from '../../styles'
 
 const Info = () => {
   return (

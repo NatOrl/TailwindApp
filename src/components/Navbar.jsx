@@ -2,6 +2,7 @@ import React from 'react';
 import { navLinks } from '../constants';
 import { useState } from 'react';
 import { close, menu } from "../assets"
+import { Link as RouterLink} from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -20,9 +21,7 @@ const Navbar = () => {
             className={`font-normal cursor-pointer text-[16px] 
               ${index === navLinks.length - 1 ? 'mr-0 text-secondary bg-white rounded-[6px] px-10 py-3' : 'mr-12 text-white'}`}  
           >
-            <a href={`#${nav.id}`}>
-              {nav.title}
-            </a>
+            <RouterLink to={nav.path}>{nav.title}</RouterLink>
           </li>
         ))}
       </ul>
@@ -48,7 +47,7 @@ const Navbar = () => {
                   index === navLinks.length - 1 ? 'mb-0' : 'mb-6'
                 } text-white`}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <RouterLink to={nav.path}>{nav.title}</RouterLink>
               </li>
             ))}
           </ul>

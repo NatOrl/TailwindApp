@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from '../styles'
-import { peoplewithdog } from '../assets'
+import styles from '../../styles'
+import { peoplewithdog } from '../../assets'
 
 const Info2 = () => {
   return (

@@ -1,10 +1,10 @@
 import React from 'react'
-import { carousel } from '../constants'
-import { arrow } from '../assets'
+import { carousel } from '../../constants'
+import { arrow } from '../../assets'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
-import { blackArrowNext, blackArrowPrev } from '../assets';
+import { blackArrowNext, blackArrowPrev } from '../../assets';
 
 const CustomNextArrow = (props) => {
   const { className, onClick } = props;
@@ -99,7 +99,7 @@ const Carusel = () => {
         </div>
 
       <Slider {...settings}>
-        {carousel.map(({id, header, content}) => (
+        {carousel.map(({header, content}) => (
           <div className='bg-white rounded-[20px] p-10 dropshadow'>
 
             <div>

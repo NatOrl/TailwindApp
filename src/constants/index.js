@@ -1,25 +1,30 @@
-import { arrow, dmodeling, ardesign, arsolutions, ps4, smartphone, pc } from '../assets'
+import { dmodeling, ardesign, arsolutions, ps4, smartphone, pc } from '../assets'
 
 export const navLinks = [
   {
     id: "home",
     title: "Home",
+    path: "/"
   },
   {
     id: "about",
     title: "About Us",
+    path: "/about"
   },
   {
     id: "services",
     title: "Services",
+    path: "/services"
   },
   {
     id: "news",
     title: "News",
+    path: "/news"
   },
   {
     id: "contact",
-    title: "Contact us"
+    title: "Contact us",
+    path: "/contact"
   }
 ];
 
@@ -77,6 +82,27 @@ export const carousel = [
     header: "Lorem Ipsum",
     content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
   }
+]
+
+export const whywork = [
+  {
+    id: "one",
+    title: "Lorem Ipsum",
+    header: "Lorem Ipsum",
+    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+  },
+  {
+    id: "two",
+    title: "Lorem Ipsum",
+    header: "Lorem Ipsum",
+    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+  },
+  {
+    id: "three",
+    title: "Lorem Ipsum",
+    header: "Lorem Ipsum",
+    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+  },
 ]
 
 

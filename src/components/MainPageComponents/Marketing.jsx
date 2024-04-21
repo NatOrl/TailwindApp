@@ -1,10 +1,10 @@
 import React from 'react'
-import styles from '../styles'
-import { people, line1, line2, line3, line4 } from '../assets'
+import styles from '../../styles'
+import { people, line1, line2, line3, line4 } from '../../assets'
 
 const Marketing = () => {
   return (
-    <>
+    
     <section id='home' className={`relative flex md:flex-row flex-col sm:py-20 py-16}`}>
       {/* Background image */}
       <img src={line3} alt='line3' className=' absolute top-0 right-0 w-[100%] h-[20%]  object-contain z-1 md:h-auto md:w-[60%]' />
@@ -50,7 +50,7 @@ const Marketing = () => {
       </div>
 
     </section>
-    </>
+    
 
     
   )
