@@ -1,6 +1,6 @@
 import React from 'react'
-import { services } from '../constants'
-import { arrow } from '../assets'
+import { services } from '../../constants'
+import { arrow } from '../../assets'
 
 const Services = () => {
   return (
@@ -16,9 +16,9 @@ const Services = () => {
           </p>  
         </div>
 
-        <div className="flex sm:flex-row flex-col flex-wrap mt-8">
+        <div className="flex flex-row flex-wrap mt-8 sm:justify-start justify-center ">
           {services.map(({ id, icon, content }) => (
-            <div key={id} className="sm:w-auto sm:flex-1 flex flex-col items-center my-4 mx-6 ">
+            <div key={id} className="w-[240px] flex flex-col items-center my-4 mx-6 ">
               <div className="w-[65px] h-[65px] rounded-full bg-lightOrange mb-6 flex items-center justify-center cursor-pointer">
                 <img src={icon} alt="" className="object-contain" />
               </div>

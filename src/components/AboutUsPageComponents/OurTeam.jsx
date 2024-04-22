@@ -1,10 +1,37 @@
 import React from 'react'
+import { team } from '../../constants'
 
 const OurTeam = () => {
   return (
-    <div>
-      
-    </div>
+    <section id='home' className={`relative flex flex-col py-0}`}>
+
+      <div className='flex flex-col md:items-start items-center text-[25px] font-semibold md:mt-20 mt-10' style={{color: '#222222', }}>
+          <h1>
+            Why work with us
+          </h1>
+      </div>
+      <div className="flex md:flex-row flex-col md:w-full justify-between items-center mt-10">
+        {team.map(({ id, icon, content, name }, index) => (
+          <div key={id} className={`flex flex-col bg-lightGrey rounded-[20px] md:mb-0 mb-10 p-10 w-[295px] whywork ${index !== team.length - 1 ? 'md:mr-10' : ''}`}>
+            <div className='flex items-center justify-center'>
+              <img src={icon} alt="" className="object-contain " />
+            </div>  
+
+            <div>
+              <h1 className='font-semibold text-center text-black text-[20px]'>
+                {name}
+              </h1>
+            </div>
+
+            <div>
+              <p className="md:w-full max-w-[500px] font-medium text-center text-textgrey text-[14px] leading-[24px] my-2 cursor-pointer">
+                {content}
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
   )
 }
 

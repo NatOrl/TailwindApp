@@ -3,7 +3,7 @@ import Marketing from './components/MainPageComponents/Marketing';
 import Navbar from './components/Navbar';
 import styles from './styles';
 import Info from './components/MainPageComponents/Info';
-import Services from './components/Services';
+import Services from './components/MainPageComponents/Services';
 import Carusel from './components/MainPageComponents/Carusel';
 import Projects from './components/MainPageComponents/Projects';
 import Info2 from './components/MainPageComponents/Info2';

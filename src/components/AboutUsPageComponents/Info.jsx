@@ -8,26 +8,26 @@ const Info = () => {
 
       
       <div className={`flex-1 ${styles.flexStart} flex-col xl:pl-16 sm:pl-16 pl-6 z-[5] `}>
-        <div className='flex flex-row  items-center w-full'>
-          <h1 className='font-poppins font-poppins flex-1 font-bold ss:text-[12px] text-[10px]' style={{ color: '#848484' }}>
+        <div className='flex flex-row mb-5 lg:mt-0 mt-10'>
+          <h1 className='font-poppins font-poppins flex-1  ss:text-[12px] text-[10px] cursor-pointer' style={{ color: '#848484' }}>
           Home
           </h1> 
-          <span className='text-normal ss:text-[12px] text-[10px]' style={{ color: '#848484' }}>></span>
-          <h1 className='font-poppins font-poppins flex-1 font-bold ss:text-[12px] text-[10px] text-secondary'>
-            About us<br className='sm:block hidden'/> {" "}
+          <span className='text-normal ss:text-[12px] text-[10px] px-2' style={{ color: '#848484' }}>></span>
+          <h1 className='font-poppins font-poppins flex-1  ss:text-[12px] text-[10px] text-secondary text-nowrap cursor-pointer'>
+            About us
           </h1>  
         </div>
 
 
-          <div className='flex flex-row justify-between items-center w-full'>
+          <div className='flex flex-row justify-between items-center md:w-full max-w-[70%]'>
             <h1 className='font-poppins flex-1 font-bold ss:text-[30px] text-[20px] text-black ss:leading-[50px] leading-[30px]'>
-            Lorem ipsum is simply. <br className='sm:block hidden'/> {" "}
-            dummy text of the printing <br className='sm:block hidden'/> {" "}
+            Lorem ipsum is simply. <br className='lg:block hidden'/> {" "}
+            dummy text of the printing <br className='lg:block hidden'/> {" "}
             and.
             </h1>  
           </div>
 
-        <p className={`${styles.paragraph} max-w-[450px] mt-8 text-textgrey ss:text-[15px] text-[10px]`}> 
+        <p className={`${styles.paragraph} lg:max-w-[450px] w-[80%] mt-8 text-textgrey ss:text-[15px] text-[10px] `}> 
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
         </p>
 

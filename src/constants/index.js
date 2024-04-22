@@ -1,4 +1,4 @@
-import { dmodeling, ardesign, arsolutions, ps4, smartphone, pc } from '../assets'
+import { dmodeling, ardesign, arsolutions, ps4, smartphone, pc, face1, face2, face3, avatar, clientlogo1, clientlogo3, clientlogo2, clientlogo4, clientlogo5 } from '../assets'
 
 export const navLinks = [
   {
@@ -105,6 +105,50 @@ export const whywork = [
   },
 ]
 
+export const team = [
+  {
+    id: "one",
+    icon: face1,
+    name: "John peter",
+    content: "COO"
+  },
+  {
+    id: "two",
+    icon: face2,
+    name: "John peter",
+    content: "COO"
+  },
+  {
+    id: "three",
+    icon: face3,
+    name: "John peter",
+    content: "COO"
+  },
+  {
+    id: "four",
+    icon: avatar,
+    name: "John peter",
+    content: "COO"
+  },
+]
+
+export const partnerships = [
+  {
+    icon: clientlogo1,
+  },
+  {
+    icon: clientlogo2,
+  },
+  {
+    icon: clientlogo3,
+  },
+  {
+    icon: clientlogo4,
+  },
+  {
+    icon: clientlogo5,
+  },
+]
 
 
 
