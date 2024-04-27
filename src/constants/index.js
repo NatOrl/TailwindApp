@@ -1,4 +1,4 @@
-import { dmodeling, ardesign, arsolutions, ps4, smartphone, pc, face1, face2, face3, avatar, clientlogo1, clientlogo3, clientlogo2, clientlogo4, clientlogo5 } from '../assets'
+import { dmodeling, ardesign, arsolutions, ps4, smartphone, pc, face1, face2, face3, avatar, clientlogo1, clientlogo3, clientlogo2, clientlogo4, clientlogo5, servicesicon1, servicesicon2, servicesicon3, greencheck } from '../assets'
 
 export const navLinks = [
   {
@@ -150,6 +150,49 @@ export const partnerships = [
   },
 ]
 
+export const servicesmaininfo = [
+  {
+    id: "stats-1",
+    icon: servicesicon1,
+    title: "Clients",
+    value: "90+",
+  },
+  {
+    id: "stats-2",
+    icon: servicesicon2,
+    title: "Countires",
+    value: "30+",
+  },
+  {
+    id: "stats-3",
+    icon: servicesicon3,
+    title: "Projects",
+    value: "50+",
+  },
+];
+
+export const servicesvideolist = [
+  {
+    id: "list-1",
+    icon: greencheck,
+    content: "Lorem Ipsum is simply"
+  },
+  {
+    id: "list-2",
+    icon: greencheck,
+    content: "Lorem Ipsum is simply"
+  },
+  {
+    id: "list-3",
+    icon: greencheck,
+    content: "Lorem Ipsum is simply"
+  },
+  {
+    id: "list-4",
+    icon: greencheck,
+    content: "Lorem Ipsum is simply"
+  },
+]
 
 
 
