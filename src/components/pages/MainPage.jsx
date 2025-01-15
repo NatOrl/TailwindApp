@@ -10,6 +10,7 @@ import Info2 from '../MainPageComponents/Info2'
 import Newsletter from '../Newsletter'
 import Footer from '../Footer'
 
+
 const MainPage = () => {
   return (
     <div>

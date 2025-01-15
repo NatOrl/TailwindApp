@@ -4,10 +4,10 @@ import styles from '../../styles'
 
 const Info3 = () => {
   return (
-    <section className={`relative flex items-center justify-center  md:flex-row flex-col sm:py-20 lg:py-10 py-16}`}>
+    <section className={`relative flex md:flex-row flex-col items-center justify-center  mt-14 mb-20`}>
       
 
-      <div className={`flex-1 ${styles.flexStart} flex-col max-w-[670px]`}>
+      <div className={`flex flex-col w-[50%] ml-10`}>
         <div className='flex justify-center flex-col'>
           <div className="max-w-[470px] flex flex-col mt-10">
             <h1 className='font-poppins font-medium ss:text-[30px] text-[25px] text-black leading-[40px]'>
@@ -29,7 +29,7 @@ const Info3 = () => {
           </button>
         </div>
       </div>
-      <div className={`flex-initial flex ${styles.flexCenter} md:my-10 my-0 relative`}>
+      <div className={`flex relative md:w-[50%] w-full md:justify-start justify-center ml-20`}>
         <img src={servicesinfo3} alt='servicesinfo3' className=' relative z-[5] flex-initial'/>
       </div>
     </section>

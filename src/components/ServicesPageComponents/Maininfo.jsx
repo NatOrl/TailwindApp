@@ -12,7 +12,7 @@ const Maininfo = () => {
           </h1> 
           <span className='text-normal ss:text-[12px] text-[10px] px-2' style={{ color: '#848484' }}>></span>
           <h1 className='font-poppins font-poppins flex-1  ss:text-[12px] text-[10px] text-secondary text-nowrap cursor-pointer'>
-            About us
+            Services
           </h1>  
         </div>
 

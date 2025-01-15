@@ -19,7 +19,7 @@ function App() {
   return (
     <div>
       <div>
-      <div className='bg-secondary w-full overflow-hidden py-3'>
+        <div className='bg-secondary w-full overflow-hidden py-3'>
           <div className={`${styles.paddingX} ${styles.flexCenter}`}>
             <div className={`${styles.boxWidth}`}>
               <Navbar />

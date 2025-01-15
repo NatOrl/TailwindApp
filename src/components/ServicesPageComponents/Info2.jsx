@@ -4,12 +4,13 @@ import { servicesinfo2 } from '../../assets'
 
 const Info2 = () => {
   return (
-    <section className={`relative flex items-center justify-center md:flex-row flex-col sm:py-20 lg:py-10 py-16}`}>
-      <div className={`flex-initial flex relative mr-20`}>
-        <img src={servicesinfo2} alt='servicesinfo2' className=' relative z-[5] flex-initial'/>
+    <section className={`relative flex md:flex-row flex-col items-center justify-center mt-14`}>
+
+      <div className={`flex relative md:w-[50%] w-full md:justify-start justify-center md:ml-10 ml-0 pr-20`}>
+        <img src={servicesinfo2} alt='servicesinfo2' className='flex relative flex-initial'/>
       </div>
 
-      <div className={`flex-1 flex-col ml-20 max-w-[515px]`}>
+      <div className={`flex flex-col w-[50%]`}>
         <div className='flex justify-center flex-col'>
           <div className="max-w-[470px] flex flex-col mt-10">
             <h1 className='font-poppins font-medium ss:text-[30px] text-[25px] text-black leading-[40px]'>

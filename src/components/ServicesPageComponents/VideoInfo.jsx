@@ -1,6 +1,5 @@
 import React from 'react'
-import styles from '../../styles'
-import { servicesvideo } from '../../assets'
+import { playicon, servicesvideo } from '../../assets'
 import { servicesvideolist } from '../../constants'
 
 const VideoInfo = () => {
@@ -9,6 +8,7 @@ const VideoInfo = () => {
       
       <div className={`flex relative md:w-[50%] w-full md:justify-end justify-center md:ml-10 ml-0`}>
         <img src={servicesvideo} alt='servicesvideo' className='flex relative flex-initial'/>
+        <img src={playicon} alt="playicon" className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2' style={{ width: '56px', height: '56px' }} />
       </div>
 
       <div className={`flex flex-col w-[50%] ml-20`}>

@@ -29,6 +29,7 @@ import orangeDots from './orangeDots.png'
 import pc from './pc.png';
 import people from './people.png';
 import peoplewithdog from './peoplewithdog.png'
+import person from './person.png'
 import playicon from './playicon.png'
 import project1 from './project1.png'
 import project2 from './project2.png'
@@ -37,6 +38,8 @@ import project4 from './project4.png'
 import project5 from './project5.png'
 import project6 from './project6.png'
 import ps4 from './ps4.png';
+import servicesArtPrev from './servicesArtPrev.png';
+import servicesArtPrev2 from './servicesArtPrev2.png';
 import servicesicon1 from './servicesicon1.png'
 import servicesicon2 from './servicesicon2.png'
 import servicesicon3 from './servicesicon3.png'
@@ -44,6 +47,13 @@ import servicesinfo1 from './servicesinfo1.png'
 import servicesinfo2 from './servicesinfo2.png'
 import servicesinfo3 from './servicesinfo3.png'
 import servicesvideo from './servicesvideo.png'
+import smallart1 from './smallart1.png'
+import smallart2 from './smallart2.png'
+import smallart3 from './smallart3.png'
+import smallart4 from './smallart4.png'
+import smallart5 from './smallart5.png'
+import smallart6 from './smallart6.png'
+import smallart7 from './smallart7.png'
 import smartphone from './smartphone.png'
 import twodudes from './twodudes.png'
 import whitearrow from './whitearrow.png'
@@ -82,6 +92,7 @@ export {
   orangeDots,
   pc,
   people,
+  person,
   peoplewithdog,
   playicon,
   project1,
@@ -91,6 +102,8 @@ export {
   project5,
   project6,
   ps4,
+  servicesArtPrev,
+  servicesArtPrev2,
   servicesicon1,
   servicesicon2,
   servicesicon3,
@@ -98,6 +111,13 @@ export {
   servicesinfo2,
   servicesinfo3,
   servicesvideo,
+  smallart1,
+  smallart2,
+  smallart3,
+  smallart4,
+  smallart5,
+  smallart6,
+  smallart7,
   smartphone,
   twodudes,
   whitearrow,
